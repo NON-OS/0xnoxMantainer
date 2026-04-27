@@ -1,0 +1,62 @@
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+*.pyc
+.env
+.env.local
+.env.*.local
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+
+# Secrets
+*.pem
+*.key
+secrets/
+credentials/
+
+# Temp
+tmp/
+temp/
+*.tmp
+
+# OS
+Thumbs.db
+desktop.ini
+
+# Python
+*.py[cod]
+.Python
+pip-log.txt
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Uploads (user data)
+uploads/*
+!uploads/.gitkeep
+
+# Certs (sensitive)
+certificates/*
+!certificates/.gitkeep
